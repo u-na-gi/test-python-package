@@ -8,13 +8,141 @@
 #   with-sources: false
 
 -e file:.
-certifi==2024.2.2
-    # via requests
-charset-normalizer==3.3.2
-    # via requests
-idna==3.6
-    # via requests
-requests==2.31.0
+attrs==23.1.0
+    # via jsonschema
     # via test-python-package
-urllib3==2.2.1
+build==0.10.0
+    # via poetry
+    # via test-python-package
+cachecontrol==0.13.1
+    # via poetry
+    # via test-python-package
+certifi==2023.7.22
     # via requests
+    # via test-python-package
+cffi==1.16.0
+    # via test-python-package
+    # via xattr
+charset-normalizer==3.3.1
+    # via requests
+    # via test-python-package
+cleo==2.0.1
+    # via poetry
+    # via test-python-package
+crashtest==0.4.1
+    # via cleo
+    # via poetry
+    # via test-python-package
+distlib==0.3.7
+    # via test-python-package
+    # via virtualenv
+dulwich==0.21.6
+    # via poetry
+    # via test-python-package
+filelock==3.12.4
+    # via cachecontrol
+    # via test-python-package
+    # via virtualenv
+gitdb==4.0.11
+    # via gitpython
+    # via test-python-package
+gitpython==3.1.42
+    # via test-python-package
+idna==3.4
+    # via requests
+    # via test-python-package
+importlib-metadata==6.8.0
+    # via test-python-package
+installer==0.7.0
+    # via poetry
+    # via test-python-package
+jaraco-classes==3.3.0
+    # via keyring
+    # via test-python-package
+jsonschema==4.17.3
+    # via poetry
+    # via test-python-package
+keyring==24.2.0
+    # via poetry
+    # via test-python-package
+more-itertools==10.1.0
+    # via jaraco-classes
+    # via test-python-package
+msgpack==1.0.7
+    # via cachecontrol
+    # via test-python-package
+packaging==23.2
+    # via build
+    # via poetry
+    # via test-python-package
+pexpect==4.8.0
+    # via poetry
+    # via test-python-package
+pkginfo==1.9.6
+    # via poetry
+    # via test-python-package
+platformdirs==3.11.0
+    # via poetry
+    # via test-python-package
+    # via virtualenv
+poetry==1.6.1
+    # via poetry-plugin-export
+    # via test-python-package
+poetry-core==1.7.0
+    # via poetry
+    # via poetry-plugin-export
+    # via test-python-package
+poetry-plugin-export==1.5.0
+    # via poetry
+    # via test-python-package
+ptyprocess==0.7.0
+    # via pexpect
+    # via test-python-package
+pycparser==2.21
+    # via cffi
+    # via test-python-package
+pyproject-hooks==1.0.0
+    # via build
+    # via poetry
+    # via test-python-package
+pyrsistent==0.19.3
+    # via jsonschema
+    # via test-python-package
+rapidfuzz==2.15.2
+    # via cleo
+    # via test-python-package
+requests==2.31.0
+    # via cachecontrol
+    # via poetry
+    # via requests-toolbelt
+    # via test-python-package
+requests-toolbelt==1.0.0
+    # via poetry
+    # via test-python-package
+shellingham==1.5.3
+    # via poetry
+    # via test-python-package
+smmap==5.0.1
+    # via gitdb
+    # via test-python-package
+tomli==2.0.1
+    # via test-python-package
+tomlkit==0.12.1
+    # via poetry
+    # via test-python-package
+trove-classifiers==2023.10.18
+    # via poetry
+    # via test-python-package
+urllib3==2.0.7
+    # via dulwich
+    # via requests
+    # via test-python-package
+virtualenv==20.24.5
+    # via poetry
+    # via test-python-package
+xattr==0.10.1
+    # via poetry
+    # via test-python-package
+zipp==3.17.0
+    # via importlib-metadata
+    # via test-python-package
